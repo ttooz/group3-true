@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>封鎖された家庭科室からの脱出 │ Project N</title>
+  <title>幽霊調査からの脱出 │ Project N</title>
   <link rel="stylesheet" href="assets/css/normalize.css">
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
@@ -23,7 +23,7 @@
   </header>
   <main class="main main-page">
     <!-- タイトルエリア　ここから -->
-    <h1 class="main-title"><img src="assets/images/main-image.png" alt="封鎖された家庭科室からの脱出"></h1>
+    <h1 class="main-title"><img src="assets/images/main-image.png" alt="幽霊調査からの脱出"></h1>
     <!-- タイトルエリア　ここまで -->
     <div id="stage">
 
@@ -34,8 +34,8 @@
         <section class="section">
           <div class="container">
             <h2 class="section-title section-title--keycolorlight"><span class="section-title__stage">STAGE：1</span>さぁゲームを始めよう！</h2>
-            <p class="text-center">まずは、この学校の家庭科室の鍵のありかを知らなければ入ることができない。<br>
-              下の画像の謎を解き、鍵のありかをキーワード欄に入力しよう。</p>
+            <p class="text-center">まずは、この大扉を開かなければ進むことができない。<br>
+              下の画像の謎を解き、答えをキーワード欄に入力しよう。</p>
             <p class="text-center">困ったときは、ヒントがある。なるべく見ないようにゲームを進めていこう。</p>
   
             <div class="container">
@@ -85,9 +85,11 @@ Youtube貼り付けここまで -->
           <div class="container">
             <div class="clear-message">
               <div class="clear-message__title">STAGE：１  クリア！</div>
-              <div class="clear-message__content">家庭科室の扉が開いた！<br>
-                さぁ先生を助けるため<br>
-                ３つステージの謎をとき、暗号を見つけ出そう！</div>
+              <div class="clear-message__content">大扉が開いた！<br>
+                ２人が中に進むと、ライトの後ろには幽霊が！その瞬間ライトは殺されてしまった。<br>
+                それを見た瞬間カズトは怖くなり廃墟の奥へと逃げてしまった。<br>
+                カズトが廃墟から脱出できるように残りの謎解きの手助けをしよう！<br>
+                </div>
               <button v-on:click="nextStage('stage1')" onclick="location.href='#sectionStage2'" class="clear-message__btn btn">次のステージへ<svg class="btn__arrow"><use xlink:href="#arrow"></use></svg></button>
             </div>
           </div>
@@ -107,9 +109,9 @@ Youtube貼り付けここまで -->
           <div class="section">
             <div class="container">
               <h2 class="section-title section-title--keycolorlight"><span class="section-title__stage">STAGE：2</span>黒板に書かれている謎を解け！</h2>
-              <p class="text-center">家庭科室に入ることができた！<br>
-                すぐに目に入ったのは黒板にある４つの謎。<br>
-                これらを解くことで、きっと次のステップに繋がるはずだ！</p>
+              <p class="text-center">先に進んでいると懐中電灯がチカチカしはじめてしまった！<br>
+                代わりになるものを探していると、目に入ったのは壁に書かれている謎。<br>
+                これを解くことで、灯りの代わりになるものの在処が分かるかもしれない！</p>
             </div>
           </div>
           <div class="stage-column__container section bg-color--keycolor">
@@ -181,8 +183,9 @@ Youtube貼り付けここまで -->
           <div class="container">
             <div class="clear-message">
               <div class="clear-message__title">STAGE：2　クリア！</div>
-              <div class="clear-message__content">黒板の指示に従い、<br>
-                次のステージの謎を解こう！</div>
+              <div class="clear-message__content">ろうそくを見つけた！<br>
+                持っていたタバコ用のライターで何とかあかりをつけることができた！<br>
+                さあ、出口を探すために前に進もう！</div>
                 <button v-on:click="nextStage('stage2')" onclick="location.href='#sectionStage3'" class="clear-message__btn btn">次のステージへ<svg class="btn__arrow"><use xlink:href="#arrow"></use></svg></button>
             </div>
           </div>
@@ -198,9 +201,9 @@ Youtube貼り付けここまで -->
         <section class="section">
           <div class="container">
             <h2 class="section-title section-title--keycolorlight"><span class="section-title__stage">STAGE：3</span>家庭科室の課題とは</h2>
-            <p class="text-center">黒板から得たメッセージは、「食物の廃棄問題」だった。<br>
-              どうやら、廃棄にかかる費用がかかりすぎて小学校の運営が厳しくなったようだ。。<br>
-              これらを解決するための最後の謎を解いていこう！</p>
+            <p class="text-center">ろうそくを見つけ、前に進むと脱出口のような扉を見つけた！<br>
+              どうやら、ここも扉に書かれている謎を解かなければいけないらしい..<br>
+              ここから脱出するために謎を解いていこう！</p>
             <figure class="image__container">
               <img src="assets/images/stage.png" alt="">
             </figure>
